@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Estilo Heredado -->
+    <!-- Crear temas para Activities o Layouts por separado -->
+    <style name="CreditacToolbarTheme" parent="Parent_CreditacMaterialTheme">
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="android:textColorSecondary">#CCFFFFFF</item>
+    </style>
+
+    <!-- Estilo Maestro -->
+    <style name="Parent_CreditacMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

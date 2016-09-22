@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Estilo Heredado -->
+    <!-- Crear temas para Activities o Layouts por separado-->
+    <style name="CreditacToolbarTheme" parent="Parent_CreditacMaterialTheme">
+        <!-- Aquí se agregan aquellos Items que requieren Lollipop o más -->
+        <item name="android:textColorPrimary">#FFF</item>
+        <item name="android:textColorSecondary">#CCFFFFFF</item>
+    </style>
+</resources>
